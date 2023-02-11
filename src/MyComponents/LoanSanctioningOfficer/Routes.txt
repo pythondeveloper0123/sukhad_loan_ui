@@ -1,0 +1,12 @@
+// ------------------ LOAN SANCTION OFFICER  ------------------
+import LoanEditComp from '../LoanSanctioningOfficer/LoanEditComp'
+import NewLoanComp from '../LoanSanctioningOfficer/NewLoanComp'
+import OldLoanComp from '../LoanSanctioningOfficer/OldLoanComp'
+import OldViewLoanComp from '../LoanSanctioningOfficer/OldViewLoanComp'
+
+
+{/* ------------------ LOAN SANCTION OFFICER  ------------------ */}
+<Route path='/updateloan/:id' element={<LoanEditComp/>}></Route>
+<Route path='/newloans' element={<NewLoanComp/>}></Route>
+<Route path='/oldloans' element={<OldLoanComp/>}></Route>
+<Route path='/oldloansview/:id' element={<OldViewLoanComp/>}></Route>
